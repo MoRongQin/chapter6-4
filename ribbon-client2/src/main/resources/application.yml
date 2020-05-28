@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-ribbon-client
+server:
+  port: 8764
+
+stores:
+  ribbon:
+#    listOfServers: 120.78.75.195:8088
+    listOfServers: 127.0.0.1:8088
+
+ribbon:
+  eureka:
+    enabled: false
